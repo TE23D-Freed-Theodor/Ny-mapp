@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+.stor {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.röd {
+    background-color: #cd0a20;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.grön {
+    background-color: #489e3b;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.gul {
+    background-color: #fabd42;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.röd-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+}
+
+.grön-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+.gul-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
